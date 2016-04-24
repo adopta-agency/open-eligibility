@@ -55,7 +55,7 @@ navigation:
     label2:
     link2:
     size2: 0
-    padding: 10
+    padding: 2
     decorate: 0
   - label1: Getting Started
     link1: /getting-started/
