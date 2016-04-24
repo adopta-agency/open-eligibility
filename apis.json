@@ -18,6 +18,74 @@
 		"properties": []
 	}],
 	"x-common": [{
+		"type": "x-authentication-overview",
+		"url": "authentication/"
+	},
+	{
+		"type": "x-base-url-for-api",
+		"url": "http://api.open.eligibility.adopta.agency"
+	},
+	{
+		"type": "x-blog",
+		"url": "blog/"
+	},
+	{
+		"type": "x-blog-rss-feed",
+		"url": "blog.xml"
+	},
+	{
+		"type": "x-change-log",
+		"url": "change-log/"
+	},
+	{
+		"type": "x-documentation",
+		"url": "documentation/"
+	},
+	{
+		"type": "x-faq",
+		"url": "frequently-asked-questions/"
+	},
+	{
+		"type": "x-getting-started",
+		"url": "getting-started/"
+	},
+	{
+		"type": "x-github",
+		"url": "https://github.com/adopta-agency/"
+	},
+	{
+		"type": "x-issues",
+		"url": "issues/"
+	},
+	{
+		"type": "x-dedicated-plans--pricing-page",
+		"url": "plans/"
+	},
+	{
+		"type": "x-privacy-policy-page",
+		"url": "privacy-policy/"
+	},
+	{
+		"type": "x-road-map",
+		"url": "road-map/"
+	},
+	{
+		"type": "x-status-history",
+		"url": "status/"
+	},
+	{
+		"type": "x-support-overview-page",
+		"url": "support/"
+	},
+	{
+		"type": "x-terms-of-service-page",
+		"url": "terms-of-service/"
+	},
+	{
+		"type": "x-twitter",
+		"url": "https://twitter.com/apievangelist"
+	},
+	{
 		"type": "x-portal",
 		"url": "http://open.eligibility.adopta.agency/"
 	}],
