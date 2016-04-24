@@ -26,15 +26,15 @@ post_color: 0000ff;
 put_color: FF0080;
 delete_color: FF9900;
 
-org: kin-lane
-repo: api
-resource: api
+org: adopta-agency
+repo: open-eligibility
+resource: taxonomy
 oauthio: qUDL4eZqKPFb41SwuWIYIwLR6jI
 
 # Masthead title
 masthead_link: http://open.eligibility.adopta.agency/
-masthead_font_size: 45
-masthead_title: '{"Open Eligibility Taxonomy"}'
+masthead_font_size: 60
+masthead_title: 'Open Eligibility<br />Taxonomy API'
 
 # Feature
 feature_title: API Design Providers Guide
