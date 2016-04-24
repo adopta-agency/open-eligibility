@@ -180,6 +180,11 @@ layout: page
                             </tr>
 
                             {% for spec in openapi_spec_json %}
+
+                              <tr>
+                                <td colspan="3" style="padding-top: 10px;"><strong>{{ spec.host }}{{ spec.basePath }}</strong></td>
+                              </tr>
+
                               {% for path in spec.paths %}
                                 {% assign method_json = path[1] %}
                                 {% for method in method_json %}
