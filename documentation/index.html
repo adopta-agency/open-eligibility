@@ -175,15 +175,12 @@ layout: page
                           {% assign tagArray = taglist | split: "," %}
                           {% for grouptag in tagArray %}
 
+                            {% for spec in openapi_spec_json %}
+
                             {% if grouptag != '' %}
                               <tr>
                                 <td colspan="3" style="padding-top: 10px;"><strong>{{ grouptag }}</strong></td>
                               </tr>
-                            {% endif %}
-
-                            {% for spec in openapi_spec_json %}
-
-                            {% if grouptag != '' %}
                               <tr>
                                 <td colspan="3" style="padding-top: 10px;">{{ spec.host }}{{ spec.basePath }}</td>
                               </tr>
