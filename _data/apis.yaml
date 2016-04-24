@@ -1,0 +1,34 @@
+name: Open Eligibility Taxonomy API
+description: ""
+image: https://s3.amazonaws.com/kinlane-productions/adopta-agency/adopta-agency-primary.png
+x-open-ranking: ""
+tags: []
+created: "2016-04-23"
+modified: "2016-04-23"
+url: http://open.eligibility.adopta.agency/apis.json
+specificationVersion: "0.14"
+apis:
+- name: Open Eligibility Taxonomy API
+  description: <p>The Open Eligibility Project is a collaborative for a better human
+    service taxonomy. The taxonomy is a simple way to categorize human services and
+    human situations. With these common categories, we, as service providers, navigators,
+    and people in need, can find human services quickly and easily. This is an API
+    setup and operated by API Evangelist to support the evolution of the specification,
+    and use across many different human services API projects.</p>
+  image: ""
+  humanURL: ""
+  baseURL: ""
+  tags: []
+  properties:
+  - type: x-openapi-spec
+    url: api-commons/openapi-spec.json
+x-common:
+- type: x-portal
+  url: http://open.eligibility.adopta.agency/
+include:
+- name: Parent
+  url: http://open.eligibility.adopta.agency//apis.yaml
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
