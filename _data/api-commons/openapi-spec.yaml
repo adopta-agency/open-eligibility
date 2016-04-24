@@ -8,14 +8,12 @@
       setup and operated by API Evangelist to support the evolution of the specification,
       and use across many different human services API projects.
     termsOfService: http://stack.network/terms-of-service.html
-    version: ~
+    version: 1
   host: http://api.open.eligibility.adopta.agency
   basePath: /
   schemes:
   - http
   produces:
-  - application/json
-  consumes:
   - application/json
   paths:
     /taxonomy/:
