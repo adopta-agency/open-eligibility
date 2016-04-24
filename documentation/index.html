@@ -179,11 +179,10 @@ layout: page
                               <tr>
                                 <td colspan="3" style="padding-top: 10px;"><strong>{{ grouptag }}</strong></td>
                               </tr>
-                              <tr>
-                                <td colspan="3" style="padding-top: 10px;">{{ spec.host }}{{ spec.basePath }}</td>
-                              </tr>
                             {% endif %}
-
+                            <tr>
+                              <td colspan="3" style="padding-top: 10px;">{{ spec.host }}{{ spec.basePath }}</td>
+                            </tr>
                             {% for spec in openapi_spec_json %}
 
                               {% for path in spec.paths %}
