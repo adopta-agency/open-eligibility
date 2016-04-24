@@ -8,8 +8,8 @@
   image: https://s3.amazonaws.com/kinlane-productions/adopta-agency/adopta-agency-primary.png
   tags:
     - "Open Eligibility"
-    - "Human Services"
-    - "Taxonomy"
+      "Human Services"
+      "Taxonomy"
   created: "2016-04-23"
   modified: "2016-04-23"
   url: http://open.eligibility.adopta.agency/apis.json
@@ -27,8 +27,8 @@
     baseURL: http://api.open.eligibility.adopta.agency/
   tags:
     - "Open Eligibility"
-    - "Human Services"
-    - "Taxonomy"
+      "Human Services"
+      "Taxonomy"
     properties:
     - type: x-openapi-spec
       url: api-commons/openapi-spec.json
