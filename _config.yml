@@ -33,8 +33,8 @@ oauthio: qUDL4eZqKPFb41SwuWIYIwLR6jI
 
 # Masthead title
 masthead_link: http://open.eligibility.adopta.agency/
-masthead_font_size: 50
-masthead_title: '{"Open Eligibility Taxonomy API"}'
+masthead_font_size: 45
+masthead_title: '{"Open Eligibility Taxonomy"}'
 
 # Feature
 feature_title: API Design Providers Guide
