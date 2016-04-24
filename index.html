@@ -300,7 +300,7 @@ layout: page
                 {% assign api_action_url = '' %}
                 {% for api in apijson.apis %}
 
-                <table cellpadding="3" cellspacing="2" width="100%" border="0">
+                <table cellpadding="3" cellspacing="2" width="100%" border="1">
 
                     {% assign api_action_spec = '' %}
                     {% assign api_action_url = '' %}
@@ -355,7 +355,7 @@ layout: page
                       </td>
                     </tr>
                     <tr id="methods-for-{{ pathname }}">
-                      <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
+                      <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px; list-style: none;">
                         <ul>
 
                           {% assign taglist = '' %}
@@ -378,7 +378,7 @@ layout: page
                           {% for grouptag in tagArray %}
 
                             {% if grouptag != '' %}
-                              <li style="font-size: 12px; margin-left: 25px;"><strong>{{ grouptag }}</strong></li><ul style="font-size: 12px; margin-left: 25px;">
+                              <li style="font-size: 12px; margin-left: 25px; list-style: none;"><strong>{{ grouptag }}</strong></li><ul style="font-size: 12px; margin-left: 25px;">
                             {% endif %}
 
                             {% for spec in openapi_spec_json %}
