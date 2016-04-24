@@ -23,7 +23,7 @@
     image: https://s3.amazonaws.com/kinlane-productions/adopta-agency/adopta-agency-primary.png
     humanURL: http://open.eligibility.adopta.agency/
     baseURL: http://api.open.eligibility.adopta.agency/
-  tags:
+    tags:
     - "Taxonomy"
     properties:
     - type: x-openapi-spec
