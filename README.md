@@ -1,4 +1,4 @@
-Content API
+Open Elegibility Taxonomy API
 =======
 
-Content API
+This is an API for working with the open referral taxonomy.

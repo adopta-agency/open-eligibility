@@ -2,9 +2,8 @@
 
 $dbserver = "laneworks-2.cjgvjastiugl.us-east-1.rds.amazonaws.com";
 $dbname = "open_eligibility";
-//$dbname = "apievangelist";
-$dbuser = "kinlane";
-$dbpassword = "ap1stack!";
+$dbuser = "laneworks-api";
+$dbpassword = "h8fmtfYxs2LbYD";
 
 // Make a database connection
 mysql_connect($dbserver,$dbuser,$dbpassword) or die('Could not connect: ' . mysql_error());
@@ -14,8 +13,4 @@ $datastore = "mysql"; // mysql or github JSON currently
 
 $githuborg = "adopta-agency";
 $githubrepo = "open-eligibility";
-
-$guser = "kinlane";
-$gpass = "kpawwjN4dnJy4j";
-
 ?>
