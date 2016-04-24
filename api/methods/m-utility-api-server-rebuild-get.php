@@ -1,6 +1,6 @@
 <?php
 $route = '/utility/api/server/rebuild/';
-$app->get($route, function ()  use ($app){
+$app->get($route, function ()  use ($app,$githubrepo){
 
   $request = $app->request();
   $params = $request->params();
@@ -428,7 +428,7 @@ $app->get($route, function ()  use ($app){
 
 		        	$Method .= "?>" . chr(13);
 
-		  			$AccountFolder = "/var/www/html/adopta_agency/open-referral-api/api/methods/";
+		  			$AccountFolder = "/var/www/html/adopta_agency/" . $githubrepo . "/api/methods/";
 		  			$MethodName = $PHP_File_Name;
 		  			$MethodFile = $AccountFolder . $MethodName;
 		  			echo "Writing: " . $MethodFile . "<br />";
