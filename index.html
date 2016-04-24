@@ -290,9 +290,9 @@ layout: page
 			</table>
     </td>
     <td width="60%" valign="top">
-      <table width="100%" border="0">
-        <tr>
-        <td align="center" style="margin-left: 90px; margin-right: 90px;">
+      <table cellpadding="5" cellspacing="5" border="0" width="85%" id="jsonBrowserTable" style="margin-left: 15px;margin-top:15px;">
+				<tr>
+          <td align="center" style="font-size: 22px; margin-left: 90px; padding-top: 15px; margin-right: 90px;">
 
             {% assign api_action_url = '' %}
             {% assign numberofapis = apijson.apis | size %}
@@ -300,7 +300,7 @@ layout: page
                 {% assign api_action_url = '' %}
                 {% for api in apijson.apis %}
 
-                <table cellpadding="3" cellspacing="2" width="100%" border="1">
+                <table cellpadding="3" cellspacing="2" width="100%" border="0">
 
                     {% assign api_action_spec = '' %}
                     {% assign api_action_url = '' %}
