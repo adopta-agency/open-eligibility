@@ -19,9 +19,7 @@ apis:
   humanURL: ""
   baseURL: ""
   tags: []
-  properties:
-  - type: x-openapi-spec
-    url: api-commons/openapi-spec.json
+  properties: []
 x-common:
 - type: x-portal
   url: http://open.eligibility.adopta.agency/
