@@ -121,6 +121,16 @@ footernavigation:
     link: http://kinlane.com/contacts/
 
 # sponsors
-sponsors_margin_top: 15
+sponsors_margin_top: 3
 sponsors_padding_top: 3
 sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
+
+# support
+support_title: Invest & Support In This Micro Tool
+support_header: I depend on the support of my partners to fund my work as an independent analysts. I have been monitoring the world of APIs since July of 2010 through the support of my partners, and a handful of writing or consulting projects along the way. I work to make all my tooling as forkable, and dependent free as they possibly can, running 100%, or near 100% entirely client-side.
+support_footer: I pay my bills by consulting on API projects, and writing white papers and guides. You can find much of my research freely available across my website(s), but if you want to support my work, and get a single snapshot of it at any point in time. If you would like enhancements to this tool, or have a copy running on your own server, in your own envrionment let meknow. Thank you for your support, and feel free to ping me directly if you have more questions.
+
+# about
+about_title: About This Micro Tool
+about_header: I develop my apps and tools like I develop my APIs, as small bite-size pieces of code that do one thing, and does it well -- nothing more. This is one of my many micro tools which runs almost 100% on Github. They all use HTML, CSS, Jekyll, YAML, and JSON that runs using Jekyll via Github Pages. When necessary I use the Github API as the back-end storage for the API, taking advantage of the JSON and YAML capabilities of Jekyll, when hosted via Github.
+about_footer: I use my own approach to delivering these micro tools, but that approach employs simple, static content, and structured data via JSON and YAML. When I need more advanced compute than JavaScript affords me, I develop an API, but only as a last resort. My objective is to create tools that any can fork into their own environment, and runs in their own tooling stack. If you need help with any of my apps, or with developing apps in this way, feel free to leave an issue / comment.
