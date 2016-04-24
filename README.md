@@ -1,4 +1,4 @@
-Open Elegibility Taxonomy API
+Open Eligibility Taxonomy API
 =======
 
-This is an API for working with the open referral taxonomy.
+This is an API for working with the open eligibility taxonomy.
