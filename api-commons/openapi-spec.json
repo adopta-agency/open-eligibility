@@ -44,6 +44,30 @@
 				"tags": [""],
 				"security": []
 			}
+		},
+		"/taxonomy/:level_one_id/:level_two_id/": {
+			"get": {
+				"summary": "Get Level Three Taxonomy",
+				"description": "Pulls the taxonomy for level three.",
+				"operationId": "getLevelThreeTaxonomy",
+				"parameters": [{
+					"in": "path",
+					"name": "level_one_id",
+					"description": "The level one id to show taxonomy for."
+				},
+				{
+					"in": "path",
+					"name": "level_two_id",
+					"description": "The level one id to show taxonomy for."
+				}],
+				"responses": {
+					"200": {
+						"description": "OK"
+					}
+				},
+				"tags": [""],
+				"security": []
+			}
 		}
 	},
 	"definitions": {
