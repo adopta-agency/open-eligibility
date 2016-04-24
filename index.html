@@ -370,14 +370,9 @@ layout: page
                               {% endfor %}
                             {% endfor %}
                           {% endfor %}
-
                           {% assign tagArray = taglist | split: "," %}
                           {% for grouptag in tagArray %}
-
-                            {% if grouptag != '' %}
-                              <li style="font-size: 12px; list-style: none;"><strong>{{ grouptag }}</strong></li><ul style="font-size: 12px; margin-left: 25px;">
-                            {% endif %}
-
+                            {% if grouptag != '' %}<li style="font-size: 12px; list-style: none;"><strong>{{ grouptag }}</strong></li><ul style="font-size: 12px; margin-left: 25px;">{% endif %}
                             {% for spec in openapi_spec_json %}
                               {% for path in spec.paths %}
                                 {% assign method_json = path[1] %}
