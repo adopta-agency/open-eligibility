@@ -1,5 +1,5 @@
 title:        Open Eligibility Taxonomy API
-url:          http://open.eligibility.adopta.agency
+url:          http://open.eligibility.adopta.agency/
 
 version:      1.1.1
 
@@ -32,8 +32,8 @@ resource: api
 oauthio: qUDL4eZqKPFb41SwuWIYIwLR6jI
 
 # Masthead title
-masthead_link: http://open.eligibility.adopta.agency
-masthead_font_size: 65
+masthead_link: http://open.eligibility.adopta.agency/
+masthead_font_size: 50
 masthead_title: '{"Open Eligibility Taxonomy API"}'
 
 # Feature
