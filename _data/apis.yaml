@@ -49,8 +49,6 @@
     url: https://github.com/adopta-agency/
   - type: x-issues
     url: issues/
-  - type: x-dedicated-plans--pricing-page
-    url: plans/
   - type: x-privacy-policy-page
     url: privacy-policy/
   - type: x-road-map
