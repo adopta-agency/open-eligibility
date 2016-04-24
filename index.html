@@ -355,7 +355,6 @@ layout: page
                     <tr id="methods-for-{{ pathname }}">
                       <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px; list-style: none;">
                         <ul>
-
                           {% assign taglist = '' %}
                           {% for spec in openapi_spec_json %}
                             {% for path in spec.paths %}
@@ -376,7 +375,7 @@ layout: page
                           {% for grouptag in tagArray %}
 
                             {% if grouptag != '' %}
-                              <li style="font-size: 12px; margin-left: 25px; list-style: none;"><strong>{{ grouptag }}</strong></li><ul style="font-size: 12px; margin-left: 25px;">
+                              <li style="font-size: 12px; list-style: none;"><strong>{{ grouptag }}</strong></li><ul style="font-size: 12px; margin-left: 25px;">
                             {% endif %}
 
                             {% for spec in openapi_spec_json %}
@@ -404,7 +403,7 @@ layout: page
                                   {% assign summary = method[1].summary %}
 
                                   {% if tag == grouptag %}
-                                    <li style="font-size: 12px; padding-left: 20px;">
+                                    <li style="font-size: 12px; margin-left: 20px;">
                                       <span style="color:#000;">{{ summary }}</span>
                                       (<span style="color:#{{ back_color }}; font-weight:bold;">{{ verb }}</span>)
                                     </li>
