@@ -180,10 +180,14 @@ layout: page
                                 <td colspan="3" style="padding-top: 10px;"><strong>{{ grouptag }}</strong></td>
                               </tr>
                             {% endif %}
-                            <tr>
-                              <td colspan="3" style="padding-top: 10px;">{{ spec.host }}{{ spec.basePath }}</td>
-                            </tr>
+
                             {% for spec in openapi_spec_json %}
+
+                            {% if grouptag != '' %}
+                              <tr>
+                                <td colspan="3" style="padding-top: 10px;">{{ spec.host }}{{ spec.basePath }}</td>
+                              </tr>
+                            {% endif %}
 
                               {% for path in spec.paths %}
                                 {% assign method_json = path[1] %}
