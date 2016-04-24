@@ -179,10 +179,7 @@ layout: page
 
                             {% if grouptag != '' %}
                               <tr>
-                                <td colspan="3" style="padding-top: 10px;"><strong>{{ grouptag }}</strong></td>
-                              </tr>
-                              <tr>
-                                <td colspan="3" style="padding-top: 10px;">{{ spec.host }}{{ spec.basePath }}</td>
+                                <td colspan="3" style="padding-top: 10px;"><strong>{{ grouptag }}</strong> <span style="font-size: 12px;">({{ spec.host }}{{ spec.basePath }})</span></td>
                               </tr>
                             {% endif %}
 
