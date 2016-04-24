@@ -1,7 +1,7 @@
 <?php
 
 $dbserver = "laneworks-2.cjgvjastiugl.us-east-1.rds.amazonaws.com";
-$dbname = "clinical_trials";
+$dbname = "open_eligibility";
 //$dbname = "apievangelist";
 $dbuser = "kinlane";
 $dbpassword = "ap1stack!";
@@ -12,12 +12,10 @@ mysql_select_db($dbname);
 
 $datastore = "mysql"; // mysql or github JSON currently
 
-$githuborg = "api-evangelist";
-$githubrepo = "plans";
+$githuborg = "adopta-agency";
+$githubrepo = "open-eligibility";
 
 $guser = "kinlane";
 $gpass = "kpawwjN4dnJy4j";
-
-$three_scale_provider_key = "9c72d79253c63772cc2a81d4e4bd07f8";
 
 ?>

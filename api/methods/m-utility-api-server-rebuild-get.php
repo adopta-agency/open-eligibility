@@ -1,18 +1,17 @@
 <?php
 $route = '/utility/api/server/rebuild/';
-$app->get($route, function ()  use ($app,$githuborg,$githubrepo,$gclient){
+$app->get($route, function ()  use ($app){
 
   $request = $app->request();
   $params = $request->params();
 
 	$ref = "gh-pages";
 	$APIsJSONURL = $params['apis_json_url'];
+	$Base_APIsJSONURL = str_replace("apis.json","",$APIsJSONURL);
 	$Resource_Store_File = "apis.json";
 
 	$APIsJSONContent = file_get_contents($APIsJSONURL);
 	$APIsJSON = json_decode($APIsJSONContent,true);
-
-	var_dump($APIsJSON);
 
 	foreach($APIsJSON['apis'] as $APIsJSON)
 		{
@@ -29,7 +28,11 @@ $app->get($route, function ()  use ($app,$githuborg,$githubrepo,$gclient){
 				{
 
 				$swagger_url = $property['url'];
-       			 $SwaggerJSON = file_get_contents($swagger_url);
+				if(substr($swagger_url, 0,4) != 'http')
+					{
+					$swagger_url = $Base_APIsJSONURL . $swagger_url;
+					}
+       			$SwaggerJSON = file_get_contents($swagger_url);
 				$Swagger = json_decode($SwaggerJSON,true);
 
 				$Swagger_Title = $Swagger['info']['title'];
