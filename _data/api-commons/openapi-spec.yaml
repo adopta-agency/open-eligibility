@@ -8,7 +8,7 @@
   basePath: "/"
   schemes:
     - "http"
-  produces: 
+  produces:
     - "application/json"
   paths:
     /taxonomy/:
