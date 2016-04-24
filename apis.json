@@ -23,7 +23,7 @@
 	}],
 	"include": [{
 		"name": "Parent",
-		"url": "http://open.eligibility.adopta.agency//apis.yaml"
+		"url": "http://open.eligibility.adopta.agency/apis.json"
 	}],
 	"maintainers": [{
 		"FN": "Kin Lane",
